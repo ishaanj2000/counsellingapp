@@ -84,7 +84,7 @@ def course_recommender(course_list):
     return rec_course
 
 
-connection = pymysql.connect(host = "localhost", port = 3306, database = "xxx", username = "xxx",password = "xxx")
+connection = pymysql.connect(host = "localhost", port = 3306, database = "xxx", user = "xxx", password = "xxx")
 cursor = connection.cursor()
 
 
